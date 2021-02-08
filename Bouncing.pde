@@ -10,10 +10,10 @@ void setup () {
 }
 
 void draw () {
-  background(255);
+  background(#75A8E8);
   
-  fill(0);
-  ellipse(pos.x, pos.y, 10, 10);
+  fill(#C6BA5A);
+  ellipse(pos.x, pos.y, 50, 50);
   
   pos.add(vel);
   if (pos.x < 0 || pos.x > width) {
